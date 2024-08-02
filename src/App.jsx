@@ -11,6 +11,11 @@ function App() {
   function perameter(num) {
     alert(num + 5);
   }
+  ///  pp time
+
+  const paramsAdd = (number) => {
+    alert(number * 4);
+  };
   return (
     <>
       <h1>Vite </h1>
@@ -22,7 +27,9 @@ function App() {
       {/* perameter newoar jono onClick a function dite habe  */}
       <button onClick={() => perameter(5)}>Click Me</button>
       {/* dairect  function  */}
+      {/* ppp */}
 
+      <button onClick={() => paramsAdd(4)}>Add All Time 4* </button>
       <button
         onClick={() => {
           alert("Clicked Button3");
